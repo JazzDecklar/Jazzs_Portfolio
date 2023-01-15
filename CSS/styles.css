@@ -1,27 +1,82 @@
  body {
     font-family:  Arial, Helvetica, sans-serif;
-    background-color: #12475f !important;
-    color: rgb(21, 220, 27);
+    background-color: #d84f0f;
+    color: rgb(0, 0, 0);
     line-height: 1.9;
-    text-align: center;
 }
+
+h1 {
+color: black;
+text-align: center;
+}
+
+.About_Me_Title {
+  background-color: darkolivegreen;
+  width: auto;
+  text-align: center;
+  border: 10px;
+}
+
 .About_Me_Info {
-  float: right;
-  background-color: darkred;
+  background-color: darkolivegreen;
+  width: fit-content;
   text-align: center;
-  width: 18%;
-  padding: 30px;
-  border: solid black;
-  margin-bottom: 10px;
+}
+
+.My_Background_Title {
+  background-color: darkolivegreen;
+  text-align: center;
+}
+
+.My_Background_info {
+  background-color: darkolivegreen;
+  text-align: center;
+}
+.My_Interests_Title {
+  background-color: darkolivegreen;
+  text-align: center;
+}
+
+.My_interests {
+  background-color: darkolivegreen;
+  text-align: center;
+}
+
+.My_Projects_Title {
+  background-color: darkolivegreen;
+  text-align: center;
+}
+
+.My_interests_List {
+  background-color: darkolivegreen;
+  padding-left: 0;
+  list-style-position: inside;
+  align-content: flex-start;
+}
+
+.My_Projects_List {
+  background-color: darkolivegreen;
+  padding-left: 0;
+  list-style-position: inside;
+}
+.image1 {
   display: block;
+  float: inline-start;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
 }
 
-ul {
-  text-align: center;
-  list-style-position: inside;
+.image2 {
+  display: block;
+  float: inline-start;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  max-height: 600px;
+  align-items: center;
 }
 
-ol {
+.footer {
   text-align: center;
-  list-style-position: inside;
 }
